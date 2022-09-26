@@ -8,8 +8,8 @@
   },
   "scripts": {
     "chatServer": "nodemon index2.js",
-    "start": "concurrently \"npm:server\" \"npm:chatServer\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "start": "concurrently \"npm:server\" \"npm:chatServer\""
+    
   },
 
   
